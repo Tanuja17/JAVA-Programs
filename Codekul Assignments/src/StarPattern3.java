@@ -22,6 +22,14 @@ public class StarPattern3 {
 	    	  System.out.println();
 	      }
 		 
+		  for(int k=1;k<=4;k++)
+		  {
+			  for(int l=1;l<=2*(5 - k) -1;l++)
+			  {
+				  System.out.print(" *");
+			  }
+			  System.out.println();
+		  }
 	}
 
 }
